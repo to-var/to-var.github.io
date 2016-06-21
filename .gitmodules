@@ -1,0 +1,3 @@
+[submodule "explorations-phaser"]
+	path = explorations-phaser
+	url = git@github.com:tmjoseantonio/explorations-phaser.git
