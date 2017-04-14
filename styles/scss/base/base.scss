@@ -1,0 +1,35 @@
+@import 'fonts';
+@import 'reset';
+
+html, body {
+  height: 100%;
+}
+
+body {
+  // Page background
+  background: -webkit-gradient(radial, center center, 0, center center, 100%, color-stop(0, $color-dark-gradient-inner), color-stop(100%, $color-dark-gradient-outer));
+  background: -webkit-radial-gradient(center, circle cover, $color-dark-gradient-inner 0, $color-dark-gradient-outer 100%);
+  background: radial-gradient(center, circle cover, $color-dark-gradient-inner 0, $color-dark-gradient-outer 100%);
+  background-color: $color-dark-gradient-inner;
+
+  //Base font settings
+  font-family: press_start_2pregular;
+  text-shadow: pxToEm(5) pxToEm(5) pxToEm(5) $color-white-transparent;
+  font-size: 62.5%;
+  color: $color-white;
+}
+
+p {
+  font-size: pxToEm(12);
+  line-height: pxToEm(14);
+  color: $paragraph-color;
+}
+
+a {
+  color: $color-lime;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+}
