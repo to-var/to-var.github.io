@@ -20,13 +20,15 @@ body {
 }
 
 p {
-  font-size: pxToEm(12);
-  line-height: pxToEm(14);
+  font-size: pxToEm(14);
+  line-height: pxToEm(18);
   color: $paragraph-color;
 }
 
 a {
   color: $color-lime;
+  font-size: pxToEm(12);
+  line-height: pxToEm(12);
 }
 
 img {

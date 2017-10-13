@@ -29,13 +29,15 @@ body {
 }
 
 p {
-  font-size: 1.2em;
-  line-height: 1.4em;
+  font-size: 1.4em;
+  line-height: 1.8em;
   color: #ffffff;
 }
 
 a {
   color: #D1E751;
+  font-size: 1.2em;
+  line-height: 1.2em;
 }
 
 img {
@@ -96,7 +98,9 @@ img {
 .page-header__title-small {
   display: block;
   color: #ffffff;
-  margin-top: 1em;
+  margin-top: 5em;
+  margin-bottom: 4em;
+  line-height: 1.6em;
 }
 
 .contact-links {
