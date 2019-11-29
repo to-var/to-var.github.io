@@ -1,0 +1,80 @@
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+big,
+small,
+strong,
+sub,
+sup,
+ol,
+ul,
+li,
+form,
+label,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+section,
+summary,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: radial-gradient(#393939, #131313);
+  background-color: #393939;
+  font-family: press_start_2pregular;
+  text-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.4);
+  font-size: 62.5%;
+  color: #ffffff;
+}
+
+body > div {
+    height: 100%;
+}
+
+p {
+  font-size: 1.4em;
+  line-height: 1.8em;
+  color: #ffffff;
+}
+
+a {
+  color: #d1e751;
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+}

@@ -1,0 +1,43 @@
+.contact-links {
+    width: 100%;
+
+    &__list {
+        list-style: none;
+        margin: 0 0 10vh 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__list-item {
+        display: block;
+        padding: 0;
+        margin: 0;
+        text-align: left;
+    }
+
+    &__link {
+        color: #26ade4;
+        text-decoration: none;
+    }
+
+    @media screen and (min-width: 769px) {
+        &__link {
+            font-size: 1.4em;
+            color: #ffffff;
+        }
+
+        &__link:before {
+            content: "[ ]";
+            display: inline-block;
+            color: #26ade4;
+        }
+
+        &__link:hover:before,
+        &__link:active:before,
+        &__link:focus:before {
+            content: "[X]";
+        }
+    }
+}

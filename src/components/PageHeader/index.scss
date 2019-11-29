@@ -1,0 +1,24 @@
+.page-header {
+    padding: 1.5em 0;
+    
+    &__title {
+        color: #d1e751;
+        font-size: 1.6em;
+        transition: font-size 0.2s;
+    }
+
+    &__title-small {
+        display: block;
+        color: #ffffff;
+        margin-top: 5em;
+        margin-bottom: 4em;
+        line-height: 1.6em;
+    }
+
+    @media screen and (min-width: 769px) {
+        &__title {
+            font-size: 2em;
+            margin-bottom: 10vh;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.page-footer {
+    &__summary {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        color: #ffffff;
+        background-color: #393939;
+        padding: 1em 0;
+    }
+}

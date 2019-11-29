@@ -1,0 +1,21 @@
+.fullpage-section {
+    min-height: 100%;
+    text-align: center;
+    margin: auto;
+    padding: 4.5em 1.5em;
+    max-width: 48em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    @media screen and (min-width: 769px) {
+        max-width: initial;
+        width: 60em;
+        padding: 3em 0;
+    }
+
+    @media screen and (min-width: 1024px) {
+        padding: 5em 0;
+    }
+}
