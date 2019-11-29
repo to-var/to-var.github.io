@@ -1,23 +1,19 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter, Route } from "react-router-dom";
 import MetaTags from './MetaTags';
 import Home from './pages/Home';
+import About from './pages/About';
 import Ventas from './pages/Ventas';
 import Footer from './components/PageFooter';
 
 export default function App() {
   return (
-    <Router>
+    <HashRouter basename='/'>
       <MetaTags />
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="/ventas">
-          <Ventas />
-        </Route>
-      </Switch>
+      <Route exact path="/" component={Home}/>
+      <Route exact path="/about" component={About}/>
+      <Route path="/ventas" component={Ventas}/>
       <Footer>© Jose Tovar</Footer>
-    </Router>
+    </HashRouter>
   );
 }
