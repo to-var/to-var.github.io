@@ -4,29 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iFrame test</title>
-</head>
-<body>
-    <button id="playVideo">▶️ Play video</button>
-    <div id="iframeContainer"></div>
-
-    <script type="text/javascript">
-        const playVideoBtn = document.getElementById('playVideo');
-        const iframeContainer = document.getElementById('iframeContainer');
-
-        const frameContents = `<iframe width="560" height="315" src="https://www.youtube.com/embed/gL1FR5C8LOs/?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
-
-        let initialized = false;
-
-        playVideoBtn.addEventListener('click', () => {
-            if (!initialized) {
-              iframeContainer.style = 'display:block';
-            iframeContainer.innerHTML = frameContents;
-            initialized = true;
-            playVideoBtn.style = 'display:none';
-          }
-        });
-    </script>
-    
     <style id="compiled-css" type="text/css">
         #iframeContainer {
           position: fixed;
@@ -59,5 +36,27 @@
           position: relative;
         }        
     </style>
+</head>
+<body>
+    <button id="playVideo">▶️ Play video</button>
+    <div id="iframeContainer"></div>
+
+    <script type="text/javascript">
+        const playVideoBtn = document.getElementById('playVideo');
+        const iframeContainer = document.getElementById('iframeContainer');
+
+        const frameContents = `<iframe width="560" height="315" src="https://www.youtube.com/embed/0k23DVv_xsA/?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+
+        let initialized = false;
+
+        playVideoBtn.addEventListener('click', () => {
+            if (!initialized) {
+              iframeContainer.style = 'display:flex';
+            iframeContainer.innerHTML = frameContents;
+            initialized = true;
+            playVideoBtn.style = 'display:none';
+          }
+        });
+    </script>
 </body>
 </html>
