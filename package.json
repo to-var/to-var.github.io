@@ -4,7 +4,11 @@
   "private": true,
   "homepage": "https://myusername.github.io",
   "dependencies": {
+    "@babel/helper-builder-react-jsx": "^7.12.13",
+    "@babel/helper-regex": "^7.10.5",
+    "create-react-app": "^4.0.3",
     "gh-pages": "^2.1.1",
+    "global": "^4.4.0",
     "node-sass": "^4.13.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
