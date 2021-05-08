@@ -10,9 +10,9 @@ const pageHeaderData = {
 };
 
 const contactLinksData = { linkItems: [
-    { name: 'Twitter', link: 'http://twitter.com/tmjoseantonio' },
+    { name: 'Twitter', link: 'https://twitter.com/To_var_dev' },
     { name: 'Github', link: 'http://github.com/tmjoseantonio' },
-    { name: 'LinkedIn', link: 'https://co.linkedin.com/in/josetovarfrontenddeveloper' }
+    { name: 'LinkedIn', link: 'https://www.linkedin.com/in/to-var' }
 ]};
 
 export default () => (

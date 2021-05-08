@@ -3,7 +3,7 @@ import FullpageSection from '../../components/FullpageSection';
 import ProfileSummary from '../../components/ProfileSummary';
 import { Link } from "react-router-dom";
 
-const profileDescriptionData = `<p>Jose is a Web Engineer experienced in Web technologies with a strong background and knowledge of accessibility guidelines such as Section 508, W3C WAI, content management systems and JavaScript based web applications.</p><p>His goals as a Web Engineer are to integrate visual comps, user experience requirements, web accessibility standards, and SEO guidelines into well structured, readable and maintainable code.</p>`;
+const profileDescriptionData = `<p>As Lead Web Engineer, Jose focuses on transforming visual designs, accessibility, and functional requirements into performant, readable, and scalable solutions. Along with ensuring quality delivery across multiple tracks of work, Jose also has experience leading teams of web engineers to develop new skills and broaden their capabilities.</p>`;
 
 export default () => (
     <React.Fragment>
