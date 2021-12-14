@@ -11,7 +11,7 @@ const pageHeaderData = {
 
 const contactLinksData = { linkItems: [
     { name: 'Twitter', link: 'https://twitter.com/To_var_dev' },
-    { name: 'Github', link: 'http://github.com/tmjoseantonio' },
+    { name: 'Github', link: 'http://github.com/to-var' },
     { name: 'LinkedIn', link: 'https://www.linkedin.com/in/to-var' }
 ]};
 
