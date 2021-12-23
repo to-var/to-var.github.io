@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const pageHeaderData = {
     title: 'Jose Tovar',
-    subtitle: 'Web Engineer, husband, gamer and a terrible musician'
+    subtitle: 'Web Engineer / Technical Lead with a PhD in Meetings'
 };
 
 const contactLinksData = { linkItems: [
